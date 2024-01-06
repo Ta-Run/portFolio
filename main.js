@@ -6,4 +6,8 @@
     loop: true
 });
 
+function onToggleMenu(name){
+    console.log('event',name)
+}
+
 
