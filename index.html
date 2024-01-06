@@ -9,19 +9,34 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 
-<body class="bg-white container mx-auto lg:bg-slate-200 ">
-    <header class="header">
-        <div class="sm:bg-slate-50 h-9    min-[320px]:bg-lime-600  mt-2  max-sm:bg-slate-600">
-            <a href="#" class=" font-extrabold h-10">Portfolio</a>
-            <nav class=" flex justify-end   md:space-x-2  min-[320px]:font-bold space-x-2 md:font-bold text-end">
-                <a href="#home" style="--i:1" class="active">Home</a>
-                <a href="#about" style="--i:2">About</a>
-                <a href="#services" style="--i:3">Skill</a>
-                <a href="#skills" style="--i:4">Portfolio</a>
-                <a href="#contact" style="--i:5">Contact</a>
-            </nav>
-        </div>
-    </header>
+<body class=" container mx-auto lg:bg-slate-200 ">
+   <nav class="">
+    <div>
+        <span class="text-2xl font-[Poppins]">
+            Portfolio
+        </span>
+    </div>
+
+    <div>
+        <ul class="flex items-center gap-[4vw]">
+            <li>
+                <a class="hover:text-gray" href="">Home</a>
+            </li>
+            <li>
+                <a class="hover:text-gray" href="">Skill</a>
+            </li>
+            <li>
+                <a class="hover:text-gray" href="">About Us</a>
+            </li>
+            <li>
+                <a class="hover:text-gray" href="">Contact</a>
+            </li>
+        </ul>
+
+
+    </div>
+
+   </nav>
 
     <section class="mt-10">
         <div class=" flex mx-auto sm:flex-row flex-col">
@@ -42,7 +57,7 @@
                     <a href="#" style="-i:1">
                         <i class='bx bxl-linkedin'></i>
                     </a>
-                    <a href="#" style="-i:1">
+                    <a href="https://github.com/" style="-i:1">
                         <i class='bx bxl-linkedin'></i>
                     </a>
                     <a href="#" style="-i:1">
@@ -52,7 +67,7 @@
             </div>
             <div class="basis-[50%] ">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi5CloBbL9r4pUfU0spbG7wPGlmQeJWDV9wAaNYkorhRRKCz354jxXs9FArrcOoKxchJ4&usqp=CAU"
-                    alt="" height="300px"  width="300px" class="ml-10">
+                    alt="" height="300px" width="300px" class="ml-48">
             </div>
         </div>
         <a href="#" class="text-xl font-bold text-blue-900">More about me ...</a>
@@ -79,11 +94,11 @@
 
     <section class="pt-5">
         <div class=" text-center">
-
             <h1 class="font-extrabold  text-5xl  text-blue-900">My <span>Services</span></h1>
             <div class="pt-7">
                 <div class="grid gap-2 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 ">
-                    <div class=" p-4 border-4 border-neutral-900 hover:border-dotted rounded shadow-lg shadow-indigo-500/50">
+                    <div
+                        class=" p-4 border-4 border-neutral-900 hover:border-dotted rounded shadow-lg shadow-indigo-500/50">
                         <i class='bx bx-code'></i>
                         <h2 class="text-xl ">Frontend Developer</h2>
                         <p class="font-mono pt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora quae
@@ -93,7 +108,8 @@
                             Consectetur, dignissimos.</p>
                         <a href="#" class="read">learn More</a>
                     </div>
-                    <div class=" p-4 border-4 border-neutral-900 hover:border-dotted rounded shadow-lg shadow-indigo-500/50">
+                    <div
+                        class=" p-4 border-4 border-neutral-900 hover:border-dotted rounded shadow-lg shadow-indigo-500/50">
                         <i class='bx bx-code'></i>
                         <h2 class="text-xl">Backend Developer</h2>
                         <p class="font-mono pt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora quae
@@ -103,7 +119,8 @@
                             Consectetur, dignissimos.</p>
                         <a href="#" class="read">learn More</a>
                     </div>
-                    <div class=" p-4  border-4 border-neutral-900 hover:border-dotted rounded shadow-lg shadow-indigo-500/50">
+                    <div
+                        class=" p-4  border-4 border-neutral-900 hover:border-dotted rounded shadow-lg shadow-indigo-500/50">
                         <i class='bx bx-code'></i>
                         <h2 class="text-xl">Frontend Developer</h2>
                         <p class="font-mono pt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora quae
@@ -192,7 +209,7 @@
             </div>
         </div>
 
-        <div class="basis-[16%]">
+        <div class="basis-[30%]">
             <h1 class="text-2xl">Professional Skills</h1>
             <div class="grid lg:grid-cols-2 md:lg:grid-cols-1 ">
                 <div class="text-center">
@@ -235,17 +252,18 @@
         </div>
     </section>
 
-    <section class=" ml-6 text-center">
+    <section class=" pt-5 ">
         <div class="Portfolio" id="project">
             <div class="main-text" id="project">
-                <h2 class="text-4xl font-bold">Latest <span>Project</span></h2>
+                <h2 class=" text-center font-extrabold  text-5xl  text-blue-900">Latest <span>Project</span></h2>
                 <div class="flex  mx-auto sm:flex-row flex-col ">
                     <div class="basis-[50%]">
                         <img src="https://mindinventory.com/blog/wp-content/uploads/2021/03/mobile-app-design-fundamentals-the-difference-between-UI-and-UX.webp"
                             width="300" height="300">
                         <div class="layer">
-                            <h5>UI/UX Desigen</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima ut veritatis! Quia
+                            <h5 class="text-center text-cyan-400 text-2xl">UI/UX Desigen</h5>
+                            <p class=" text-center text-2xl pt-3 font-mono ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Fuga minima ut veritatis! Quia
                                 hic pariatur tempore voluptatum ipsam numquam perspiciatis, corrupti doloremque nisi
                                 fugit error illum delectus cum, aliquam a.</p>
                             <a href="#"><i class='bx bxl-nodejs' style="color: #e65acb;"></i></a>
@@ -255,11 +273,12 @@
                         <img src="https://mindinventory.com/blog/wp-content/uploads/2021/03/mobile-app-design-fundamentals-the-difference-between-UI-and-UX.webp"
                             width="300" height="300">
                         <div class="layer">
-                            <h5>UI/UX Desigen</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima ut veritatis! Quia
+                            <h5 class="text-center text-cyan-400 text-2xl">UI/UX Desigen</h5>
+                            <p class="text-2xl pt-3 font-mono text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Fuga minima ut veritatis! Quia
                                 hic pariatur tempore voluptatum ipsam numquam perspiciatis, corrupti doloremque nisi
                                 fugit error illum delectus cum, aliquam a.</p>
-                            <a href="#"><i class='bx bxl-nodejs' style="color: #e65acb;"></i></a>
+                            <a href="#"><i class='bx bxl-nodejs ' style="color: #e65acb;"></i></a>
                         </div>
                     </div>
                 </div>
@@ -267,20 +286,22 @@
         </div>
     </section>
 
-    <section class=" ml-6">
-        <h2 class="text-4xl text-center font-bold">Contact<span>Me</span></h2>
+    <section class=" pt-5">
+        <h2 class="font-extrabold  text-5xl  text-blue-900 text-center">Contact<span>Me</span></h2>
         <div class="flex mx-auto sm:flex-row flex-col">
             <div class="basis-[55%] ">
-                <h4 class="text-2xl">Let's work Together</h4>
-                <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque repellendus et nesciunt, illo eaque
+                <h4 class="text-4xl text-justify pt-5">Let's work Together</h4>
+                <p class="text-left text-2xl pt-3 font-mono pt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Neque repellendus et
+                    nesciunt, illo eaque
                     numquam nulla eligendi sint, voluptatum laudantium quis id iste ipsa minus totam saepe culpa
                     sapiente
                     eum.</p>
                 <div class="">
-                    <li> <i class='text-xl '></i>tarunsharma11091999@gmail.com</li>
-                    <li> <i class='bx bxs-phone'></i>9993416411</li>
+                    <li class="text-2xl"> <i class='text-2xl '></i>tarunsharma11091999@gmail.com</li>
+                    <li class="text-2xl"> <i class='bx bxs-phone '></i>9993416411</li>
                 </div>
-                <div class="contact-icons">
+                <div class="contact-icons text-2xl">
                     <a href=""><i class='bx bxl-facebook-circle'></i></a>
                     <a href=""><i class='bx bxl-facebook-circle'></i></a>
                     <a href=""><i class='bx bxl-facebook-circle'></i></a>
@@ -290,10 +311,27 @@
             </div>
             <div class="basis-[45%]">
                 <form class="border-4">
-                    <input type="text" placeholder="Enter Your Name" required>
-                    <input type="email" placeholder="Enter Your Email" required>
-                    <input type="email" placeholder="Subject">
-                    <textarea placeholder="Enter Your Message" required></textarea>
+                    <div class="mb-5">
+                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
+                            Name</label>
+                        <input type="email" id="email"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            required>
+                    </div>
+                    <div class="mb-5">
+                        <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
+                            Email</label>
+                        <input type="text" id="password"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="name@flowbite.com" required>
+                    </div>
+
+
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
+                        message</label>
+                    <textarea id="message" rows="4"
+                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="Leave a comment..."></textarea>
                     <input type="submit" value="submit" class="send">
                 </form>
             </div>

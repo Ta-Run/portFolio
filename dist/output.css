@@ -615,6 +615,22 @@ video {
   margin-left: 2.5rem;
 }
 
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-24 {
+  margin-left: 6rem;
+}
+
+.ml-48 {
+  margin-left: 12rem;
+}
+
 .flex {
   display: flex;
 }
@@ -685,6 +701,22 @@ video {
 
 .basis-\[16\%\] {
   flex-basis: 16%;
+}
+
+.basis-\[26\%\] {
+  flex-basis: 26%;
+}
+
+.basis-\[6\%\] {
+  flex-basis: 6%;
+}
+
+.basis-\[36\%\] {
+  flex-basis: 36%;
+}
+
+.basis-\[30\%\] {
+  flex-basis: 30%;
 }
 
 .grid-cols-3 {
