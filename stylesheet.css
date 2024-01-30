@@ -1,16 +1,3 @@
 @tailwind base;
-
 @tailwind components;
-.h_font{
-    @apply text-center text-cyan-400 text-2xl
-}
 @tailwind utilities;
-
-@layer base{
-    .box::before{
-        @apply content-[''] absolute
-        bg-[conic-garadiant(#04b0ee_20deg,transparent_120deg)] w-[300px]
-        h-[300px] top-[-25%] left-[-25%]
-    }
-}
-
