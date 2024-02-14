@@ -25,5 +25,4 @@ let progress = setInterval(() => {
     if (progressStartValue == progressEndValue) {
         clearInterval(progress)
     }
-
 }, speed);
