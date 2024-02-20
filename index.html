@@ -6,6 +6,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./dist/output.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +16,7 @@
         rel="stylesheet">
 </head>
 
-<body class="container mx-auto bg-gradient-to-r from-violet-200 to-pink-200">
+<body class="container mx-auto bg-gray-200">
     <nav class=" flex justify-between items-end  bg-blue-600  mx-auto mt-3">
         <div>
             <span class="text-2xl font-[Poppins] font-extrabold">
@@ -52,9 +53,9 @@
                 <h1 class="pt-3">Tarun Sharma</h1>
                 <h3 class="pt-3 font-Poppins ">And I'm a <span class="text"></span></h3>
                 <p class="text-xl md:text-2xl pt-3 font-Poppins ">I'm a Web Developer with extensive expreience for over
-                    1
+                    2
                     year.
-                    <br>experties is to create frontend and backend
+                    <br>Experties Is To Create Frontend And Backend
                 </p>
                 <div class=" pt-3 ">
                     <a href="https://github.com/Ta-Run" style="-i:1">
@@ -73,27 +74,26 @@
                         <i class='bx bxl-linkedin'></i>
                     </a>
                 </div>
+                <a href="#" class="text-xl font-bold text-blue-900  pt-8">More about me ...</a>
             </div>
             <div class="basis-[50%]  animate__animated animate__fadeInRight">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi5CloBbL9r4pUfU0spbG7wPGlmQeJWDV9wAaNYkorhRRKCz354jxXs9FArrcOoKxchJ4&usqp=CAU"
-                    alt="" height="300px" width="300px" class="mx-auto mix-blend-multiply">
+                <img src="public/images/homejpg.png" alt="" class="mx-auto mix-blend-multiply border-none">
             </div>
         </div>
-        <a href="#" class="text-xl font-bold text-blue-900">More about me ...</a>
+
     </section>
     <section class="mt-10  ml-6 text-center">
         <div class="about-text">
             <h2 class="text-5xl font-extrabold text-blue-600 animate__bounceOut">About <span>Me</span></h2>
             <div class="flex mx-auto sm:flex-row flex-col">
                 <div class="basis-[50%] animate__animated animate__fadeInLeft">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_cFMyETWXe2HjlbXewZLHbxYsjtM2UP_SQv20zhrwlVm7VBQczxILVpMG4Z18dW1VvEI&usqp=CAU"
-                        alt="" class="mix-blend-multiply transform transform-all hover:skew-y-6">
+                    <img src="public/images/aboutme.png" alt="" class="w-56">
                 </div>
                 <div class="basis-[50%] animate__animated animate__fadeInRight">
-                    <h4 class="text-3xl pt-3 font-Poppins ">Full Stack Developer</h4>
-                    <p class="text-2xl pt-3 font-Poppins">
-                        I am skilled web developer work for 8 month as backend and frontend developer.
-                        and 6 month for Angular developer...
+                    <h4 class="text-3xl pt-3 font-Poppins font-bold ">Full Stack Developer</h4>
+                    <p class="text-2xl pt-3 font-Poppins font-bold">
+                        I am skilled web developer work for 2 year as Backend and Frontend developer.
+
                     </p>
                     <a href="#" class="text-blue-900 text-2xl font-bold">More About Me </a>
                 </div>
@@ -108,34 +108,69 @@
                 <div class="grid gap-2 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 px-3   ">
 
                     <div
-                        class="flex justify-center items-center p-4 border-4 border-neutral-900 rounded shadow-lg shadow-indigo-500/50relative overflow-hidden before:content-['']  before:animate-waving-hand before:bg-gradient-to-br from-red-600 to-transparent via-transparent  before:h-48 before:w-56  before:absolute
-                        after:content-['']   after:rounded-lg  after:flex after:justify-center after:items-center after:text-white after:absolute">
-                        <i class='bx bx-code'></i>
-                        <h2 class="text-xl ">Frontend Developer</h2>
-                        <p class="font-Poppins pt-3">I have work frontend with strong exprience of 2 year and
-                            wrok with
-                            React js and angular ts</p>
-                        <a href="#" class="read">learn More</a>
+                        class=" p-4 border-4 border-neutral-900 rounded shadow-lg shadow-indigo-500/50relative overflow-hidden">
+                        <i class='bx bxl-html5'></i>
+                        <div class="service">
+                            <h2 class="text-xl">React.js Development</h2>
+                            <p class="font-Poppins pt-3">I specialize in building interactive web applications using
+                                React.js. With experience in creating reusable components, managing state effectively,
+                                and optimizing performance, I can help bring your ideas to life.</p>
+                            <a href="#" class="read">Learn More</a>
+                        </div>
                     </div>
                     <div
-                    class="flex justify-center items-center p-4 border-4 border-neutral-900 rounded shadow-lg shadow-indigo-500/50relative overflow-hidden before:content-['']  before:animate-waving-hand before:bg-gradient-to-br from-red-600 to-transparent via-transparent  before:h-48 before:w-56  before:absolute
-                    after:content-['']   after:rounded-lg  after:flex after:justify-center after:items-center after:text-white after:absolute">
-                        <i class='bx bx-code'></i>
-                        <h2 class="text-xl">Backend Developer</h2>
-                        <p class="font-Poppins pt-3">I have more than one year exprience with backend and work with many
-                            project . Perfrom the multiple task for the Backend work on apis and many thing ...</p>
-                        <a href="#" class="read">learn More</a>
+                        class=" p-4 border-4 border-neutral-900 rounded shadow-lg shadow-indigo-500/50relative overflow-hidden">
+                        <i class='bx bxl-html5'></i>
+                        <div class="service">
+                            <h2 class="text-xl">Angular Development</h2>
+                            <p class="font-Poppins pt-3">As an Angular developer, I excel in building robust single-page
+                                applications (SPAs) with Angular framework. Whether it's implementing data binding,
+                                routing, or handling forms, I can deliver high-quality solutions tailored to your needs.
+                            </p>
+                            <a href="#" class="read">Learn More</a>
+                        </div>
                     </div>
                     <div
-                    class="flex justify-center items-center p-4 border-4 border-neutral-900 rounded shadow-lg shadow-indigo-500/50relative overflow-hidden before:content-['']  before:animate-waving-hand before:bg-gradient-to-br from-red-600 to-transparent via-transparent  before:h-48 before:w-56  before:absolute
-                    after:content-['']   after:rounded-lg  after:flex after:justify-center after:items-center after:text-white after:absolute">
+                        class="  p-4 border-4 border-neutral-900 rounded shadow-lg shadow-indigo-500/50relative overflow-hidden">
                         <i class='bx bx-code'></i>
-                        <h2 class="text-xl">Full Stack</h2>
-                        <p class="font-Poppins pt-3"> I have one live project expreince work as a full stack developer
-                            on
-                            this project and perfrom multiple functioality</p>
-                        <a href="#" class="read">learn More</a>
+                        <div class="service">
+                            <h2 class="text-xl">HTML/CSS Development</h2>
+                            <p class="font-Poppins pt-3">I have a strong foundation in HTML and CSS, the building blocks
+                                of the web. From creating responsive layouts to styling user interfaces, I ensure that
+                                your web projects are visually appealing and accessible across devices.</p>
+                            <a href="#" class="read">Learn More</a>
+                        </div>
                     </div>
+                    <div
+                        class="  p-4 border-4 border-neutral-900 rounded shadow-lg shadow-indigo-500/50relative overflow-hidden">
+                        <i class='bx bx-code'></i>
+                        <div class="service">
+                            <h2 class="text-xl">Nest.js Development</h2>
+                            <p class="font-Poppins pt-3">I specialize in building scalable and maintainable server-side applications using Nest.js. With its modular architecture and powerful features like dependency injection and middleware support, I can create robust APIs and microservices tailored to your business needs.</p>
+                            <a href="#" class="read">Learn More</a>
+                        </div>
+
+                    </div>
+                    <div
+                    class="  p-4 border-4 border-neutral-900 rounded shadow-lg shadow-indigo-500/50relative overflow-hidden">
+                    <i class='bx bx-code'></i>
+                    <div class="service">
+                        <h2 class="text-xl">Node.js Development</h2>
+                        <p class="font-Poppins pt-3">I specialize in backend development using Node.js. With expertise in building scalable and efficient server-side applications, I leverage the power of JavaScript to create robust APIs, real-time applications, and microservices.</p>
+                        <a href="#" class="read">Learn More</a>
+                    </div>
+
+                </div>
+                <div
+                class="  p-4 border-4 border-neutral-900 rounded shadow-lg shadow-indigo-500/50relative overflow-hidden">
+                <i class='bx bx-code'></i>
+                <div class="service">
+                    <h2 class="text-xl">MongoDB</h2>
+                    <p class="font-Poppins pt-3">I have experience working with MongoDB, a versatile NoSQL database. Whether it's designing schemas, performing complex queries, or optimizing database performance, I can help you harness the flexibility and scalability of MongoDB for your projects.</p>
+                    <a href="#" class="read">Learn More</a>
+                </div>
+
+            </div>
                 </div>
 
             </div>
@@ -148,17 +183,15 @@
     </section>
 
     <section class="grid gap-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 px-3">
-        <div
-            class="flex flex-col items-center gap-6 rounded-md  shadow-lg p-5 text-center hover:bg-blue-200">
+        <div class="flex flex-col items-center gap-6 rounded-md  shadow-lg p-5 text-center hover:bg-blue-200">
             <div
                 class="circular-progress relative h-56 w-56 rounded-full  flex items-center justify-center bg-[conic-gradient(#9233ea,#FFFFFF,#FFFFFF)] before:content-[''] before:absolute  before:bg-gray-200 before:rounded-full before:h-48 before:w-48">
                 <span class="progress-value relative text-6xl font-extrabold">0%</span>
             </div>
-            <i class='bx bxl-html5 ' ></i>
+            <i class='bx bxl-html5 '></i>
             <span class="text">HTML</span>
         </div>
-        <div
-            class="flex flex-col items-center gap-6 rounded-md shadow-lg p-5 text-center hover:bg-blue-200">
+        <div class="flex flex-col items-center gap-6 rounded-md shadow-lg p-5 text-center hover:bg-blue-200">
             <div
                 class="circular-progress relative h-56 w-56 rounded-full  flex items-center justify-center bg-[conic-gradient(#9233ea,#FFFFFF,#FFFFFF)] before:content-[''] before:absolute  before:bg-gray-200 before:rounded-full before:h-48 before:w-48">
                 <span class="progress-value relative text-6xl font-extrabold">0%</span>
@@ -166,26 +199,23 @@
             <i class='bx bxl-html5'></i>
             <span class="text">CSS</span>
         </div>
-        <div
-            class="flex flex-col items-center gap-6 rounded-md  shadow-lg p-5 text-center hover:bg-blue-200">
+        <div class="flex flex-col items-center gap-6 rounded-md  shadow-lg p-5 text-center hover:bg-blue-200">
             <div
                 class="circular-progress relative h-56 w-56 rounded-full  flex items-center justify-center bg-[conic-gradient(#9233ea,#FFFFFF,#FFFFFF)] before:content-[''] before:absolute  before:bg-gray-200 before:rounded-full before:h-48 before:w-48">
                 <span class="progress-value relative text-6xl font-extrabold">0%</span>
             </div>
-            <i class='bx bxl-html5 ' ></i>
+            <i class='bx bxl-html5 '></i>
             <span class="text">Javascript</span>
         </div>
-        <div
-            class="flex flex-col items-center gap-6 rounded-md  shadow-lg p-5 text-center hover:bg-blue-200">
+        <div class="flex flex-col items-center gap-6 rounded-md  shadow-lg p-5 text-center hover:bg-blue-200">
             <div
                 class="circular-progress relative h-56 w-56 rounded-full  flex items-center justify-center bg-[conic-gradient(#9233ea,#FFFFFF,#FFFFFF)] before:content-[''] before:absolute  before:bg-gray-200 before:rounded-full before:h-48 before:w-48">
                 <span class="progress-value relative text-6xl font-extrabold">0%</span>
             </div>
-            <i class='bx bxl-html5 ' ></i>
+            <i class='bx bxl-html5 '></i>
             <span class="text">React</span>
         </div>
-        <div
-            class="flex flex-col items-center gap-6 rounded-md shadow-lg p-5 text-center hover:bg-blue-200">
+        <div class="flex flex-col items-center gap-6 rounded-md shadow-lg p-5 text-center hover:bg-blue-200">
             <div
                 class=" circular-progress relative h-56 w-56 rounded-full  flex items-center justify-center bg-[conic-gradient(#9233ea,#FFFFFF,#FFFFFF)] before:content-[''] before:absolute  before:bg-gray-200 before:rounded-full before:h-48 before:w-48 ">
                 <span class="progress-value relative text-6xl font-extrabold">0%</span>
@@ -194,8 +224,7 @@
             <span class="text">Angular</span>
         </div>
 
-        <div
-            class="flex flex-col items-center gap-6 rounded-md shadow-lg p-5 text-center hover:bg-pink-200">
+        <div class="flex flex-col items-center gap-6 rounded-md shadow-lg p-5 text-center hover:bg-pink-200">
             <div
                 class=" circular-progress relative h-56 w-56 rounded-full  flex items-center justify-center bg-[conic-gradient(#9233ea,#FFFFFF,#FFFFFF)] before:content-[''] before:absolute  before:bg-gray-200 before:rounded-full before:h-48 before:w-48 ">
                 <span class="progress-value relative text-6xl font-extrabold">0%</span>
@@ -213,31 +242,24 @@
                 <div class="grid gap-2 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 px-3 pt-5 bg-slate-600">
                     <div class=" shadow-lg p-5 text-center bg-slate-700">
                         <h5 class="text-center text-cyan-400 text-2xl">Pdfiy</h5>
-                        <p class="text-center text-2xl pt-3 mx-auto font-Poppins">Built with Next.js, PDFify is a web
-                            application empowering users to effortlessly upload, securely store, and perform various
-                            actions
-                            on PDF fsiles. Offering a seamless experience, it allows users to manage their PDFs with
-                            ease,
-                            making document handling efficient and intuitive.</p>
+
                         <a href="#"><i class='bx bxl-nodejs' style="color: #e65acb;"></i></a>
                     </div>
                     <div class="shadow-lg p-5 text-center ">
                         <h5 class="text-center text-cyan-400 text-2xl">Ecommerce Clone</h5>
-                        <p class="text-2xl pt-3 font-Poppins text-center ">Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit.
-                            Fuga minima ut veritatis! Quia
-                            hic pariatur tempore voluptatum ipsam numquam perspiciatis, corrupti doloremque nisi
-                            fugit error illum delectus cum, aliquam a.</p>
+
                         <a href="#"><i class='bx bxl-nodejs ' style="color: #e65acb;"></i></a>
                     </div>
                     <div class="shadow-lg p-5 text-center bg-slate-800 animate__flipInX">
                         <h5 class="text-center text-cyan-400 text-2xl">Random Gifs</h5>
-                        <p class="text-2xl pt-3 font-Poppins text-center ">Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit.
-                            Fuga minima ut veritatis! Quia
-                            hic pariatur tempore voluptatum ipsam numquam perspiciatis, corrupti doloremque nisi
-                            fugit error illum delectus cum, aliquam a.</p>
-                        <a href="#"><i class='bx bxl-nodejs ' style="color: #e65acb;"></i></a>
+
+                        <a href="#"><i
+                                class='bx bxl-nodejs text-5xl transform hover:scale-x-100 hover:text-white hover:bg-purple-600  transition-colors duration-200 delay-200'
+                                style="color: #e65acb;"></i></a>
+                        <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, dolorum
+                            reiciendis delectus aut voluptatibus ratione, doloremque in, nobis repellat neque nostrum
+                            consectetur quia molestias corporis illum. Iusto fuga repellat error.</p>
+
                     </div>
                 </div>
             </div>
@@ -287,7 +309,8 @@
                     <textarea id="message" rows="4"
                         class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         placeholder="Leave a comment..."></textarea>
-                    <input type="submit" value="submit" class="bg-sky-900  mt-3">
+                    <input type="submit" value="submit"
+                        class="bg-sky-900 h-19 w-48 mt-3 rounded-lg text-white-700 text-2xl">
                 </form>
             </div>
         </div>
